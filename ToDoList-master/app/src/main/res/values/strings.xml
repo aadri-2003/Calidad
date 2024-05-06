@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Aún no hay recordatorios que mostrar</string>
+    <string name="title_activity_show_task">Detalles de la tarea</string>
+    <string name="title_activity_edit_task">Editar tarea</string>
+</resources>

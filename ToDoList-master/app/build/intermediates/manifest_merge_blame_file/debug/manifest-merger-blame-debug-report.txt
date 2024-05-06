@@ -1,0 +1,176 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.todolist"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\Julio\.gradle\caches\transforms-3\adb0f8aef9814f927d0b037b1c49e903\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.todolist.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\Julio\.gradle\caches\transforms-3\adb0f8aef9814f927d0b037b1c49e903\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\Julio\.gradle\caches\transforms-3\adb0f8aef9814f927d0b037b1c49e903\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.todolist.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\Julio\.gradle\caches\transforms-3\adb0f8aef9814f927d0b037b1c49e903\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\Julio\.gradle\caches\transforms-3\adb0f8aef9814f927d0b037b1c49e903\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:5:5-48:19
+18        android:allowBackup="true"
+18-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\Julio\.gradle\caches\transforms-3\adb0f8aef9814f927d0b037b1c49e903\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:fullBackupContent="@xml/backup_rules"
+22-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:8:9-54
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:9:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:10:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:11:9-54
+26        android:supportsRtl="true"
+26-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:12:9-35
+27        android:theme="@style/Theme.ToDoList" >
+27-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:13:9-46
+28        <activity
+28-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:15:9-19:53
+29            android:name="com.example.todolist.EditTask"
+29-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:16:13-37
+30            android:exported="false"
+30-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:17:13-37
+31            android:label="@string/title_activity_edit_task"
+31-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:18:13-61
+32            android:theme="@style/Theme.ToDoList" />
+32-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:19:13-50
+33        <activity
+33-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:20:9-22:40
+34            android:name="com.example.todolist.ui.theme.EditTask"
+34-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:21:13-46
+35            android:exported="false" />
+35-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:22:13-37
+36        <activity
+36-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:23:9-27:53
+37            android:name="com.example.todolist.ShowTask"
+37-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:24:13-37
+38            android:exported="false"
+38-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:25:13-37
+39            android:label="@string/title_activity_show_task"
+39-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:26:13-61
+40            android:theme="@style/Theme.ToDoList" />
+40-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:27:13-50
+41        <activity
+41-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:28:9-34:20
+42            android:name="com.example.todolist.HomeScreen"
+42-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:29:13-39
+43            android:exported="false" >
+43-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:30:13-37
+44            <meta-data
+44-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:31:13-33:36
+45                android:name="android.app.lib_name"
+45-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:32:17-52
+46                android:value="" />
+46-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:33:17-33
+47        </activity>
+48        <activity
+48-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:35:9-47:20
+49            android:name="com.example.todolist.MainActivity"
+49-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:36:13-41
+50            android:exported="true" >
+50-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:37:13-36
+51            <intent-filter>
+51-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:38:13-42:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:39:17-69
+52-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:39:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:41:17-77
+54-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:41:27-74
+55            </intent-filter>
+56
+57            <meta-data
+57-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:31:13-33:36
+58                android:name="android.app.lib_name"
+58-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:32:17-52
+59                android:value="" />
+59-->C:\Users\Julio\Desktop\CS\Trabajo\CALIDAD\ToDoList-master\app\src\main\AndroidManifest.xml:33:17-33
+60        </activity>
+61
+62        <provider
+62-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\3efd16e3bdf5a4a81eb37f7ef0473e5c\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+63            android:name="androidx.startup.InitializationProvider"
+63-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\3efd16e3bdf5a4a81eb37f7ef0473e5c\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+64            android:authorities="com.example.todolist.androidx-startup"
+64-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\3efd16e3bdf5a4a81eb37f7ef0473e5c\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+65            android:exported="false" >
+65-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\3efd16e3bdf5a4a81eb37f7ef0473e5c\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+66            <meta-data
+66-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\3efd16e3bdf5a4a81eb37f7ef0473e5c\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+67-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\3efd16e3bdf5a4a81eb37f7ef0473e5c\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+68                android:value="androidx.startup" />
+68-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\3efd16e3bdf5a4a81eb37f7ef0473e5c\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Julio\.gradle\caches\transforms-3\a0e18d70cdab4615247252ba31fca14c\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+70-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Julio\.gradle\caches\transforms-3\a0e18d70cdab4615247252ba31fca14c\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+71                android:value="androidx.startup" />
+71-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Julio\.gradle\caches\transforms-3\a0e18d70cdab4615247252ba31fca14c\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+72            <meta-data
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\33602a85dbf366f42c687af1e39dc565\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\33602a85dbf366f42c687af1e39dc565\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+74                android:value="androidx.startup" />
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\33602a85dbf366f42c687af1e39dc565\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+75        </provider>
+76
+77        <receiver
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\33602a85dbf366f42c687af1e39dc565\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+78            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\33602a85dbf366f42c687af1e39dc565\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+79            android:directBootAware="false"
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\33602a85dbf366f42c687af1e39dc565\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+80            android:enabled="true"
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\33602a85dbf366f42c687af1e39dc565\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+81            android:exported="true"
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\33602a85dbf366f42c687af1e39dc565\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+82            android:permission="android.permission.DUMP" >
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\33602a85dbf366f42c687af1e39dc565\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\33602a85dbf366f42c687af1e39dc565\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+84                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\33602a85dbf366f42c687af1e39dc565\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\33602a85dbf366f42c687af1e39dc565\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\33602a85dbf366f42c687af1e39dc565\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+87                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\33602a85dbf366f42c687af1e39dc565\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\33602a85dbf366f42c687af1e39dc565\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+88            </intent-filter>
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\33602a85dbf366f42c687af1e39dc565\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+90                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\33602a85dbf366f42c687af1e39dc565\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\33602a85dbf366f42c687af1e39dc565\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+91            </intent-filter>
+92            <intent-filter>
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\33602a85dbf366f42c687af1e39dc565\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+93                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\33602a85dbf366f42c687af1e39dc565\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Julio\.gradle\caches\transforms-3\33602a85dbf366f42c687af1e39dc565\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+94            </intent-filter>
+95        </receiver>
+96    </application>
+97
+98</manifest>
